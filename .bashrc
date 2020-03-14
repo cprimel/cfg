@@ -67,3 +67,6 @@ function parse_git_dirty {
 		echo ""
 	fi
 }
+
+# Added automatically by Flow? flow-typed?
+export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"
