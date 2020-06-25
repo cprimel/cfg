@@ -1,68 +1,79 @@
 {
-    "workbench.iconTheme": "material-icon-theme",
-    "[markdown]": {
-        "editor.defaultFormatter": "yzhang.markdown-all-in-one"
+  "workbench.iconTheme": "material-icon-theme",
+  "[markdown]": {
+    "editor.defaultFormatter": "yzhang.markdown-all-in-one"
+  },
+  "explorer.confirmDelete": false,
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.python"
+  },
+  "python.formatting.provider": "black",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[c]": {
+    "editor.defaultFormatter": "xaver.clang-format"
+  },
+  "C_Cpp.updateChannel": "Insiders",
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "git.enableSmartCommit": true,
+  "python.venvPath": "/home/cprimel/.local/share/virtualenvs/",
+  "[NGINX]": {},
+  "[nginx]": {},
+  "git.confirmSync": false,
+  "python.dataScience.sendSelectionToInteractiveWindow": false,
+  "editor.fontSize": 16,
+  "explorer.confirmDragAndDrop": false,
+  "javascript.validate.enable": false,
+  "[ocaml]": {},
+  "reason.codelens.enabled": true,
+  "reason.diagnostics.tools": ["merlin"],
+  "workbench.colorTheme": "Night Owl",
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "go.useLanguageServer": true,
+  "[go]": {
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": true
     },
-    "explorer.confirmDelete": false,
-    "[python]": {
-        "editor.defaultFormatter": "ms-python.python"
-    },
-    "python.formatting.provider": "black",
-    "[javascript]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "[c]": {
-        "editor.defaultFormatter": "xaver.clang-format"
-    },
-    "C_Cpp.updateChannel": "Insiders",
-    "[javascriptreact]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "git.enableSmartCommit": true,
-    "python.venvPath": "/home/cprimel/.local/share/virtualenvs/",
-    "[NGINX]": {},
-    "[nginx]": {},
-    "git.confirmSync": false,
-    "python.dataScience.sendSelectionToInteractiveWindow": false,
-    "editor.fontSize": 16,
-    "explorer.confirmDragAndDrop": false,
-    "javascript.validate.enable": false,
-    "[ocaml]": {},
-    "reason.codelens.enabled": true,
-    "reason.diagnostics.tools": [
-        "merlin",
-    ],
-    "workbench.colorTheme": "Night Owl",
-    "[jsonc]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "[html]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "[json]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "go.useLanguageServer": true,
-    "[go]": {
-        "editor.formatOnSave": true,
-        "editor.codeActionsOnSave": {
-            "source.organizeImports": true,
-        },
-        // Optional: Disable snippets, as they conflict with completion ranking.
-        "editor.snippetSuggestions": "none",
-    },
-    "[go.mod]": {
-        "editor.formatOnSave": true,
-        "editor.codeActionsOnSave": {
-            "source.organizeImports": true,
-        },
-    },
-    "gopls": {
-        // Add parameter placeholders when completing a function.
-        "usePlaceholders": true,
-
-        // If true, enable additional analyses with staticcheck.
-        // Warning: This will significantly increase memory usage.
-        "staticcheck": false,
+    // Optional: Disable snippets, as they conflict with completion ranking.
+    "editor.snippetSuggestions": "none"
+  },
+  "[go.mod]": {
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": true
     }
+  },
+  "gopls": {
+    // Add parameter placeholders when completing a function.
+    "usePlaceholders": true,
+
+    // If true, enable additional analyses with staticcheck.
+    // Warning: This will significantly increase memory usage.
+    "staticcheck": false
+  },
+  "python.pythonPath": "/usr/lib/python3.8",
+  "window.zoomLevel": 0,
+  "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "java.home": "/usr/lib/jvm/java-8-openjdk/",
+  "[cpp]": {
+    "editor.defaultFormatter": "xaver.clang-format"
+  },
+  "cmake.configureOnOpen": false,
+  "C_Cpp.default.intelliSenseMode": "clang-x64",
+  "testMate.cpp.log.userId": "1a4fb4e943b3355c174450ff599605cd2439ba07",
+  "testMate.cpp.log.logSentry": "enable",
+  "editor.tabSize": 2,
 }
